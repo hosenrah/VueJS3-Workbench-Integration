@@ -1,1 +1,4 @@
-@import '~/@workbench/core/dist/scss/utility.scss';
+// This file should only import mixins and variables, since they will be injected into every component.
+// If you import scss files which include css classes they will be importet for every component you use,
+// this will pollute the whole application!!!
+@import "~/@workbench/core/dist/scss/utility.scss";
